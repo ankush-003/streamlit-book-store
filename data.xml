@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- Users -->
+    <Users>
+        <User>
+            <UserID>1</UserID>
+            <Username>Ankush</Username>
+            <Password>PES1UG21CS091</Password>
+        </User>
+        <User>
+            <UserID>2</UserID>
+            <Username>Ganya</Username>
+            <Password>PES1UG21CS201</Password>
+        </User>
+    </Users>
+
+    <!-- Books -->
+    <Books>
+        <Book>
+            <BookID>1</BookID>
+            <Title>The Great Gatsby</Title>
+            <Author>F. Scott Fitzgerald</Author>
+            <Price>19.99</Price>
+            <Quantity>10</Quantity>
+        </Book>
+        <Book>
+            <BookID>2</BookID>
+            <Title>To Kill a Mockingbird</Title>
+            <Author>Harper Lee</Author>
+            <Price>14.99</Price>
+            <Quantity>5</Quantity>
+        </Book>
+        <Book>
+            <BookID>3</BookID>
+            <Title>1984</Title>
+            <Author>George Orwell</Author>
+            <Price>24.99</Price>
+            <Quantity>8</Quantity>
+        </Book>
+        <Book>
+            <BookID>4</BookID>
+            <Title>The Hobbit</Title>
+            <Author>J.R.R. Tolkien</Author>
+            <Price>29.99</Price>
+            <Quantity>12</Quantity>
+        </Book>
+        <Book>
+            <BookID>5</BookID>
+            <Title>Harry Potter and the Sorcerer's Stone</Title>
+            <Author>J.K. Rowling</Author>
+            <Price>17.99</Price>
+            <Quantity>3</Quantity>
+        </Book>
+    </Books>
+
+    <!-- User Carts -->
+    <Carts>
+        <Cart>
+            <CartID>1</CartID>
+            <UserID>1</UserID>
+            <BookID>1</BookID>
+            <Quantity>2</Quantity>
+        </Cart>
+        <Cart>
+            <CartID>2</CartID>
+            <UserID>1</UserID>
+            <BookID>3</BookID>
+            <Quantity>1</Quantity>
+        </Cart>
+        <Cart>
+            <CartID>3</CartID>
+            <UserID>2</UserID>
+            <BookID>2</BookID>
+            <Quantity>4</Quantity>
+        </Cart>
+    </Carts>
+</root>
